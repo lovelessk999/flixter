@@ -1,20 +1,15 @@
 @import "bootstrap";
 
 .navbar {
-
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 200;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   box-shadow: 0px 1px 3px #2a2a2a;
-  background: image_url('blues1.png')
- 
+  background: image_url('footer_lodyas.png')
  }
 
-.navbar-inverse a.navbar-brand {
+.navbar-inverse a.navbar-brand a {
 
-  font-family: "Helvetica Neue", Helvetica;
+  font-family: "Verdana", sans-serif;
   font-weight: 100;
-  color: white;
-  
  }
 
 body {
@@ -22,4 +17,5 @@ body {
   background: image_url('blues.png')
 
 }
+
 
