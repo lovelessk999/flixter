@@ -33,10 +33,12 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem "mini_magick"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'simple_form'
 gem 'devise'
+gem 'carrierwave', '~> 2.0'
 gem 'html_routes', '~> 1.0', group: :development
 
 
@@ -69,6 +71,22 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
+
+
+gem 'figaro'
+gem 'fog-aws'
+gem 'mini_magick'
+gem 'carrierwave-aws'
+
+# Payments
+gem 'stripe'
+
+# Lesson Pages
+gem 'ranked-model'
+gem 'jquery-ui-rails'
+
+gem 'font-awesome-rails'
+
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
