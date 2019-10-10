@@ -14,7 +14,7 @@
 
   <br />
   <br />
-  <ul>
+  <ul class="sections">
     <% current_course.sections.each do |section| %>
       <li>
         <%= section.title %>
@@ -45,6 +45,18 @@
         });
       }
       });
+
+      $('.sections').sortable({
+          update: function(event, ui) {
+          $.ajax({
+            type: 'PUT',
+            url: ui.item.data('update-url'),
+            dataType: 'json',
+            data: {section: { row_order_position: ui.item.index()}}
+          });
+        }
+      });
+
     });
   </script>
 
