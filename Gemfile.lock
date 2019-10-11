@@ -293,7 +293,7 @@ DEPENDENCIES
   bootstrap (= 4.0.0.alpha6)
   byebug
   capybara (>= 2.15)
-  carrierwave (~> 2.0)
+  carrierwave (~> 2.0.2)
   carrierwave-aws
   chromedriver-helper
   coffee-rails (~> 4.2)

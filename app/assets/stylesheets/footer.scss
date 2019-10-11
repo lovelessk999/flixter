@@ -9,7 +9,7 @@ body {
 }
 
 #flex-content-container {
-  flex: 1;
+  flex: 1 0 auto;
 }
 
 #footer {
@@ -18,12 +18,21 @@ body {
   min-height: 100px;
   background-color: rgba(36, 32, 33, 0.9);
   color: white;
-  font-family: "Helvetica Neue", Helvetica;
-  padding: 10 px 0px;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  padding: 10px 0px;
   margin-top: 30px;
+  font-weight: 100;
 }
 
 #footer a {
-  color: white;
+  color: rgb(229, 225, 181);
   font-weight: 100;
+}
+
+.social-button {
+  margin: 4px;
+}
+
+.social a:hover {
+  text-decoration: none;
 }

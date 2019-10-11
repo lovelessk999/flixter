@@ -1,4 +1,64 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400i,700,700i');
+
+
+.navbar {
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: 200px;
+  background: image_url('white_texture');
+}
+
+.navbar-light a.navbar-brand {
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: bold;
+}
+
+.hero {
+  background: image_url('hero.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 15px;
+}
+
+.frosty h1 {
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: 100;
+}
+
+.frosty h2 {
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: 100;
+}
+
+.btn {
+  border-radius: 0;
+
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+body {
+  background: image_url('blues.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+
+}
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -7,75 +67,17 @@
   background: #fff;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 10px;
   margin-top: 10px;
-  margin-bottom: 15px;
-  padding: 20px;
 }
 
-.navbar {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  box-shadow: 0px 1px 3px #2a2a2a;
-  background: image_url('footer_lodyas.png')
- }
-
-.navbar-inverse a.navbar-brand a {
-
-  font-family: "Verdana", sans-serif;
-  font-weight: 100;
- }
-
-body {
-  
-  background: image_url('blues.png');
-  /* Verdana-based sans serif stack */
-  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
-
+.booyah-box h2, .booyah-box h1 {
+  margin: 10px;
 }
 
-.hero {
-  background: image_url('hero.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 800px;
-  box-shadow: 0px 3px 8px #2a2a2a;
-}
-
-h1, h2, h3, h4, h5, h6, .navbar {
-  margin: 0;
-}
-
-.frosty {
-  background: rgba(0,0,0,0.5);
-  color: white;
-}
-
-.frosty h1 {
-  font-family: "Verdana", sans-serif;
-  font-weight: 100;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
-}
-
-.frosty h2 {
-  font-family: "Verdana", sans-serif;
-  font-weight: 200;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
-}
-
-.btn {
-  border-radius: 0;
-}
-
-.feature {
-   width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
- 
 .help-block {
   color: #ff3333;
-  background-color: #FFEEEE;
+  background-color: #ffeeee;
   border-radius: 3px;
   padding: 2px 8px 2px 8px;
   margin: 10px;
@@ -85,34 +87,69 @@ h1, h2, h3, h4, h5, h6, .navbar {
   clear: both;
 }
 
-.image-resize {
-  max-height: 200px;
-  min-height: 198px;
-  min-width: 400px;
-  max-width: 401px;
+.lesson {
+  background-color: #bcb8b1;
+  margin-top: 10px;
+  min-height: 130px;
+  border-radius: 8px;
+  padding: 15px;
 }
 
-.lesson {
-  background-color: black;
-  margin-top: 10px;
-  height: 130px;
+.lesson a {
+  color: black;
+  font-size: 15px;
+}
+
+.lesson a b {
+  font-weight: 100;
+  font-size: 25px;
 }
 
 .section {
   border: 1px solid;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   padding: 20px;
-  text-align: center;
+  background-color: #f7f2e8;
 }
 
-.lesson a {
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  margin: 20px;
+}
+
+ul .header {
+  font-size: 25px;
+}
+
+ul .header .fa {
+  font-size: 20px;
+}
+
+.lessons li {
+  background: black;
   color: white;
-  font-family: "Helvetica Neue", Helvetica;
+  margin: 10px;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-weight: 100;
+  padding: 8px;
   font-size: 15px;
 }
 
-.lesson a b{
-  font-weight: 100;
+.lessons li b {
   font-size: 25px;
+}
+
+.lessons li p {
+  margin: 0;
+}
+
+.lessons .fa {
+  font-size: 40px;
 }
