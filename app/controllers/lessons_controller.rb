@@ -5,11 +5,13 @@ class LessonsController < ApplicationController
   def show
   end
 
+  
+
 
 
  private
 
- def require_enrolled_for_current_course
+  def require_enrolled_for_current_course
        if ! current_user.enrolled_in?(current_course)
            redirect_to course_path(current_lesson.section.course), alert: 'Please enroll to view course details.'
        else
